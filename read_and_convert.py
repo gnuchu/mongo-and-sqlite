@@ -1,15 +1,11 @@
 from customer import Customer
 import sqlite3
+from pymongo import MongoClient
+
+CONNECTION_STRING = "mongodb://127.0.0.1:27017"
 
 def get_database():
-  from pymongo import MongoClient
-  import pymongo
-
-  CONNECTION_STRING = "mongodb://127.0.0.1:27017"
-
-  from pymongo import MongoClient
   client = MongoClient(CONNECTION_STRING)
-
   return client['customer-database']
 
 if __name__ == "__main__":
@@ -32,4 +28,3 @@ if __name__ == "__main__":
     #Commit every 50 records. Not entriely necessary but some records you might have to manage your transactions.
     if (record_count % 50) == 0:
       sql_connection.commit()
-
