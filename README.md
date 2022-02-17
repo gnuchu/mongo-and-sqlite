@@ -10,9 +10,18 @@ If its not already installed follw the instructions at:
 
 > * brew tap mongodb/brew
 > * brew install mongodb/brew/mongodb-community mongodb/brew/mongodb-community-shellbrew install
->
 > * brew services start mongodb/brew/mongodb-community
 > * brew install robo-3t (optional - install neat front end for mongo that makes viewing data easier)
+
+#### Front end for Sqlite:
+
+- https://sqlitebrowser.org/
+
+#### Front end for Mongo
+
+* https://robomongo.org/
+
+#### Sqlite
 
 Type
 
