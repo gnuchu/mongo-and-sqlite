@@ -8,13 +8,11 @@ If its not already installed follw the instructions at:
 
 ### MongoDB and Sqlite
 
-> brew tap mongodb/brew
+> * brew tap mongodb/brew
+> * brew install mongodb/brew/mongodb-community mongodb/brew/mongodb-community-shellbrew install
 >
-> brew install mongodb/brew/mongodb-community mongodb/brew/mongodb-community-shellbrew install
->
-> brew services start mongodb/brew/mongodb-community
->
-> brew install robo-3t (optional - install neat front end for mongo that makes viewing data easier)
+> * brew services start mongodb/brew/mongodb-community
+> * brew install robo-3t (optional - install neat front end for mongo that makes viewing data easier)
 
 Type
 
