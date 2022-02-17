@@ -16,7 +16,7 @@ If its not already installed follw the instructions at:
 
 Type
 
-> sqlite3 -version
+> * sqlite3 -version
 
 at the command prompt. You should get some output like:
 
@@ -25,13 +25,13 @@ at the command prompt. You should get some output like:
 
 If you get this (version number not important as long as it is greater than 3.0) than nothing else is required. If you get an error then:
 
-> brew install sqlite3
+> * brew install sqlite3
 
 ### Python packages
 
 (Assuming you have a working python install)
 
-> pip install -r requirements.txt
+> * pip install -r requirements.txt
 
 ### Process
 
