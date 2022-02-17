@@ -1,4 +1,3 @@
-from customer import Customer
 import sqlite3
 from pymongo import MongoClient
 
